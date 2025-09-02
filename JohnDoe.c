@@ -54,10 +54,7 @@
 
 /* public methods */
 
-JOHNDOE_EXT void JohnDoe_main(void)
-{
-  /* TBD */
-}
+
 
 
 
