@@ -1,30 +1,30 @@
 /******************** COPYRIGHT (C) 2025 MOTLAB Co., Ltd. All rights reserved. *******************//**
- * @file          JohnDoe.h
+ * @file          AppVariable.h
  * @author        JMOh
- * @date          2025.09.02 09:39:47
+ * @date          2025.09.02 13:15:34
  * @version       01.00
  * @description
  *
  *****************************************************************************************************/
 
 
-#ifndef JOHNDOE_H
-#define JOHNDOE_H
+#ifndef APPVARIABLE_H
+#define APPVARIABLE_H
 
 
 
 /***************************************************************************************************
   Include shared modules, which are used for whole project
 ***************************************************************************************************/
+//#include <typedef.h>
 #include "Ifx_Types.h"
-#include "AppVariable.h"
 
 
-#ifdef JOHNDOE_C
-#define JOHNDOE_EXT
+#ifdef APPVARIABLE_C
+#define APPVARIABLE_EXT
 #else
-#define JOHNDOE_EXT extern
-#endif /* ifdef JOHNDOE_C */
+#define APPVARIABLE_EXT extern
+#endif /* ifdef APPVARIABLE_C */
 
 
 
@@ -33,6 +33,8 @@
 /***************************************************************************************************
   constant definitions
 ***************************************************************************************************/
+#define STD_OFF                     (0x0U)
+#define STD_ON                      (0x1U)
 
 
 
@@ -57,14 +59,14 @@
 /***************************************************************************************************
   public method prototypes
 ***************************************************************************************************/
-JOHNDOE_EXT void JohnDoe_main(void);
 
 
 
 
 
 
-#endif  /* ifndef JOHNDOE_H */
+
+#endif  /* ifndef APPVARIABLE_H */
 
 
 /******************* COPYRIGHT (C) 2025 MOTLAB Co., Ltd. *****************************END OF FILE****/

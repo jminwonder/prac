@@ -1,14 +1,14 @@
 /******************** COPYRIGHT (C) 2025 MOTLAB Co., Ltd. All rights reserved. *******************//**
- * @file          JohnDoe.c
+ * @file          AppVariable.c
  * @author        JMOh
- * @date          2025.09.02 09:39:48
+ * @date          2025.09.02 13:15:30
  * @version       01.00
  * @description
  *
  *****************************************************************************************************/
 
 
-#define JOHNDOE_C
+#define APPVARIABLE_C
 
 /* namespace definition */
 /* declare Name Space of Kernel Package */
@@ -19,8 +19,8 @@
 /***************************************************************************************************
   Include shared modules, which are used for whole project
 ***************************************************************************************************/
-#include "JohnDoe.h"
-
+//#include <typedef.h>
+#include "AppVariable.h"
 
 
 /***************************************************************************************************
@@ -52,10 +52,7 @@
 
 
 /* public methods */
-JOHNDOE_EXT void JohnDoe_main(void)
-{
-  /* TBD */
-}
+
 
 
 
