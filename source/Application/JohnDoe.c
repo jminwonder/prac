@@ -12,7 +12,6 @@
 
 /* namespace definition */
 /* declare Name Space of Kernel Package */
-//#define NS_KERNEL
 
 
 
